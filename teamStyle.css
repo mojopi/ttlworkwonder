@@ -1,0 +1,220 @@
+
+body{
+    background-image: url(purple-background1.png);
+    margin: 0px;
+    background-size: cover;
+}
+
+.name {
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 110%;
+    font-size: 2.5vw;
+    font-family: "'EB Garamond', serif";
+    color: rgb(105, 105, 105);
+
+}
+.headshot {
+    background-color: rgba(245, 245, 245, 0.5);
+    width: 15vw;
+    height: 15vw;
+
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    top: 0%;
+    left: 0%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+
+    background-color: rgb(176, 176, 176);
+    border: 1px grey solid;
+
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+
+.description-invisible {
+    color: rgb(176, 176, 176);
+/*    background-image: url(./imgs/watercolor.png);
+*/    background-size: cover;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    border-radius: 10%;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    opacity: 0;
+    padding: 5%;
+    font-size: 1vw;
+    font-family: ariel;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+
+
+
+
+.description-apparent {
+    font-size: 1.5vw;
+    top: 0%;
+    left: 0%;
+    width: 90%;
+    height: 90%;
+    text-align: left;
+    transition: ease-in-out 1s;
+    animation-name: fade;
+    animation-duration: 15s;
+    background-color: rgb(176, 176, 176) width: 100%;
+    height: 100%;
+    ;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1.0;
+    }
+
+
+    90% {
+        opacity: 1.0;
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+
+
+
+}
+
+#headshotE0 {
+    background-image: url(./workWonderImages/allison1.jpg);
+
+}
+
+#headshotE0:hover {
+    background-image: url(./workWonderImages/allison2.jpg);
+
+}
+
+
+
+#headshotE1 {
+    background-image: url(./workWonderImages/amber1.png);
+
+}
+
+#headshotE1:hover {
+    background-image: url(./workWonderImages/amber2.png);
+
+}
+
+
+#headshotE2 {
+    background-image: url(./workWonderImages/anthony1.jpg);
+
+}
+
+#headshotE2:hover {
+    background-image: url(./workWonderImages/anthony2.jpg);
+
+}
+
+#headshotE3 {
+    background-image: url(./workWonderImages/clarissa1.png);
+
+}
+
+#headshotE3:hover {
+    background-image: url(./workWonderImages/clarissa2.jpg);
+
+}
+
+#headshotE4 {
+    background-image: url(./workWonderImages/erika1.jpg);
+
+}
+
+#headshotE4:hover {
+    background-image: url(./workWonderImages/erika2.jpg);
+
+}
+
+
+#headshotE5 {
+    background-image: url(./workWonderImages/haleigh1.jpg);
+
+}
+
+#headshotE5:hover {
+    background-image: url(./workWonderImages/haleigh2.jpg);
+
+}
+
+
+#headshotE6 {
+    background-image: url(./workWonderImages/jonathan1.png);
+
+}
+
+#headshotE6:hover {
+    background-image: url(./workWonderImages/jonathan2.png);
+
+}
+
+#headshotE7 {
+    background-image: url(./workWonderImages/karen1.jpg);
+
+}
+
+#headshotE7:hover {
+    background-image: url(./workWonderImages/karen2.jpg);
+
+}
+
+
+#headshotE8 {
+    background-image: url(./workWonderImages/leon1.jpg);
+
+}
+
+#headshotE8:hover {
+    background-image: url(./workWonderImages/leon2.jpg);
+
+}
+
+
+#headshotE9 {
+    background-image: url(./workWonderImages/zyan1.jpg);
+
+}
+
+#headshotE9:hover {
+    background-image: url(./workWonderImages/zyan2.jpg);
+
+}
+
+
+
+
